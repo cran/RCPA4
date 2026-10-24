@@ -1,0 +1,15 @@
+"var","slug","label","notes","category","class","n","missing","distinct","range","examples","value_labels","is_factor","is_ordered","levels"
+"obs","debate-obs","Unique identification number for each subject",,"Experiment Administration","integer",,,,,,,"FALSE","FALSE",
+"assignment","debate-assignment","Name of condition subject was assigned to",,"Experiment Administration","factor",,,,,,,"TRUE","FALSE","radio | tv"
+"tv","debate-tv","Did subject watch debate on TV?","1 = yes, 0 = no","Experiment Administration","numeric",,,,,,,"FALSE","FALSE",
+"debinfo","debate-debinfo","Number of correct answers on five-question quiz about the debate",,"Measured Outcomes","integer",,,,,,,"FALSE","FALSE",
+"catholic","debate-catholic","Is subject Catholic? ","1 = yes, 0 = no","Subject Characteristics","numeric",,,,,,,"FALSE","FALSE",
+"issues","debate-issues","Which candidate do you agree with on policy issues?",,"Measured Outcomes","numeric",,,,,,,"FALSE","FALSE",
+"integrity","debate-integrity","Which candidate has more integrity?",,"Measured Outcomes","numeric",,,,,,,"FALSE","FALSE",
+"leadership","debate-leadership","Which candidate is the more effective leader?",,"Measured Outcomes","numeric",,,,,,,"FALSE","FALSE",
+"empathy","debate-empathy","Which candidate has more empathy?",,"Measured Outcomes","numeric",,,,,,,"FALSE","FALSE",
+"sophdum","debate-sophdum","Is respondent a sophomore?","1 = yes, 0 = no","Subject Characteristics","numeric",,,,,,,"FALSE","FALSE",
+"won","debate-won","Which candidate won the debate? ","1 = Kennedy ... 4 = Tie ... 7 = Nixon","Measured Outcomes","integer",,,,,,,"FALSE","FALSE",
+"pid","debate-pid","Self-reported partisan identification","1-7 scale","Subject Characteristics","integer",,,,,,,"FALSE","FALSE",
+"ideology","debate-ideology","Self-reported political ideology","1-7 scale","Subject Characteristics","integer",,,,,,,"FALSE","FALSE",
+"gender","debate-gender","Subject's gender","1 = female, 0 = male","Subject Characteristics","factor",,,,,,,"TRUE","FALSE","Male | Female"

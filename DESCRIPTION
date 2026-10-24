@@ -1,0 +1,33 @@
+Package: RCPA4
+Type: Package
+Title: Data and Functions for "An R Companion to Political Analysis,
+        Fourth Edition"
+Version: 1.0.0
+Authors@R: c(
+    person(
+        "Barry C.", "Edwards",
+        email = "bce@uga.edu",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0009-0005-6699-3820")
+    ),
+    person("Philip H.", "Pollock III", role = "ctb")
+    )
+Description: Provides teaching-oriented functions and datasets for "An R Companion to Political Analysis, Fourth Edition" (forthcoming 2026). Functions produce readable tables and graphics for descriptive statistics, data transformation, confidence intervals, hypothesis testing, comparisons, cross-tabulation, and linear and logistic regression. Sampling weights are supported where appropriate, and analysis functions return reusable results for further examination. The package also includes curated political datasets designed for classroom instruction and independent practice. See Edwards and Pollock (forthcoming 2026) <https://www.poliscidata.com/textbooks/r_companion_4e.php>.
+License: CC0
+URL: https://www.poliscidata.com/textbooks/r_companion_4e.php
+LazyData: TRUE
+Encoding: UTF-8
+Depends: R (>= 4.0)
+Imports: beepr, car, graphics, grDevices, haven, Hmisc, knitr, lmtest,
+        methods, stats, survey, utils
+Suggests: hexbin, rgl, scatterplot3d, gdata, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-09 13:32:27 UTC; Barry Edwards
+Author: Barry C. Edwards [aut, cre] (ORCID:
+    <https://orcid.org/0009-0005-6699-3820>),
+  Philip H. Pollock III [ctb]
+Maintainer: Barry C. Edwards <bce@uga.edu>
+Repository: CRAN
+Date/Publication: 2026-10-24 08:20:02 UTC
